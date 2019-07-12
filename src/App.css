@@ -7,16 +7,31 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.Row {
+  padding-top: 20px
+}
+.InputArea {
+  width: '80%'
+}
+.ErrorText {
+  color: #ff0000;
+  height: 50px;
+  width: 300px;
+}
+.RegularText {
+  color: #000;
+  height: 50px;
+  width: 300px;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #CCC;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
